@@ -10,10 +10,7 @@ QuizNova is a Full Stack Quiz Portal developed using React.js, Spring Boot, and 
 - Java Quiz
 - C Programming Quiz
 - Python Quiz
-- Operating System Quiz
-- DBMS Quiz
-- Data Structure Using C Quiz
-- Quiz Result
+
 - About Developer
 
 ## 🛠 Tech Stack
