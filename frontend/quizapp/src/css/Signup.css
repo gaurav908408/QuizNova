@@ -1,0 +1,89 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+}
+
+.signup-container{
+
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+}
+
+.signup-card{
+
+width:420px;
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 0 30px rgba(0,0,0,.3);
+
+}
+
+.signup-card h1{
+
+text-align:center;
+color:#1565c0;
+margin-bottom:10px;
+
+}
+
+.signup-card h2{
+
+text-align:center;
+margin-bottom:30px;
+
+}
+
+.signup-card input{
+
+width:100%;
+padding:15px;
+margin-bottom:18px;
+border:1px solid #ccc;
+border-radius:10px;
+font-size:17px;
+
+}
+
+.signup-card button{
+
+width:100%;
+padding:15px;
+background:#1565c0;
+color:white;
+border:none;
+border-radius:10px;
+font-size:18px;
+cursor:pointer;
+
+}
+
+.signup-card button:hover{
+
+background:#0d47a1;
+
+}
+
+.signup-card p{
+
+text-align:center;
+margin-top:20px;
+
+}
+
+.signup-card a{
+
+text-decoration:none;
+color:#1565c0;
+font-weight:bold;
+
+}
