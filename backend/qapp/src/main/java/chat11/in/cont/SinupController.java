@@ -2,15 +2,21 @@ package chat11.in.cont;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import chat11.in.SinupSer;
 import chat11.in.dto.LoginRequest;
 import chat11.in.synup.Sinup;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
-public class SinupController {
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://quiz-nova-pi.vercel.app",
+    "https://quiz-nova-git-main-gaurav9084.vercel.app"
+})public class SinupController {
 
     @Autowired
     private SinupSer reposin;
