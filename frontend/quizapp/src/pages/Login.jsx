@@ -16,8 +16,7 @@ function Login() {
 
         try {
 
-            const response = await axios.post(
-                "http://localhost:8080/login",
+            const response = await axios.post("https://quiznova-2-n2v3.onrender.com/login", 
                 {
                     email: email,
                     password: password

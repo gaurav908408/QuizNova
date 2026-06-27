@@ -57,7 +57,7 @@ function Signup() {
 
         try {
 
-            await axios.post("http://localhost:8080/signup", user);
+           await axios.post("https://quiznova-2-n2v3.onrender.com/signup", user);
 
             alert("Signup Successful");
 
