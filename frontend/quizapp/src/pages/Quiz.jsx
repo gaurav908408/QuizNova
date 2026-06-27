@@ -102,9 +102,9 @@ function Quiz() {
                     >
 
                         <h3>
-<h3>
+
     {index + 1}. {q.question.replace(/\s*\(Practice #\d+\)/, "")}
-</h3>                        </h3>
+                       </h3>
 
                         <label className="option">
 
