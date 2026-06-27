@@ -22,12 +22,7 @@ const response = await axios.post(
         email: email,
         password: password
     }
-);                {
-                    email: email,
-                    password: password
-                }
-            );
-
+);               
             // Save user details
             localStorage.setItem("username", response.data.name);
             localStorage.setItem("userId", response.data.id);
