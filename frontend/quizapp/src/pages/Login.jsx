@@ -16,8 +16,13 @@ function Login() {
 
         try {
 
-            const response = await axios.post("https://quiznova-2-n2v3.onrender.com/login", 
-                {
+const response = await axios.post(
+    "https://quiznova-3-gam5.onrender.com/login",
+    {
+        email: email,
+        password: password
+    }
+);                {
                     email: email,
                     password: password
                 }

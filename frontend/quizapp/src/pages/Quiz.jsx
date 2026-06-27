@@ -18,8 +18,8 @@ function Quiz() {
 
         try {
 
-            const result = await axios.get(
-    "https://quiznova-2-n2v3.onrender.com/question/" + category
+           const result = await axios.get(
+    "https://quiznova-3-gam5.onrender.com/question/" + category
 );
 
             setQuestions(result.data);
@@ -58,9 +58,10 @@ function Quiz() {
 
         try {
 
-          const response = await axios.post(
-    "https://quiznova-2-n2v3.onrender.com/submitQuiz",
+         const response = await axios.post(
+    "https://quiznova-3-gam5.onrender.com/submitQuiz",
     requestBody
+
 );
 
             alert(
